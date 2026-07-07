@@ -4,8 +4,8 @@ namespace Fiap.PosTech.MarketPlace.Api.Controllers;
 /// Controlador para entidade produto.
 /// </summary>
 [Route("api/[controller]")]
-[Authorize]
 [ApiController]
+[Authorize]
 public class ProductController: ControllerBase
 {
     private readonly IProductService _productService;
