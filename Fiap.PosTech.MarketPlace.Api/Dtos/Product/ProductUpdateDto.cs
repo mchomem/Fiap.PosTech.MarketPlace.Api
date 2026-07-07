@@ -3,7 +3,7 @@ namespace Fiap.PosTech.MarketPlace.Api.Dtos.Product;
 /// <summary>
 /// DTO de atualização para entidade produto.
 /// </summary>
-public class ProductUpdateDto
+public record ProductUpdateDto
 {
     /// <summary>
     /// Identificador único do produto.
