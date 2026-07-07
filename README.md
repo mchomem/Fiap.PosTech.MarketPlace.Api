@@ -40,6 +40,6 @@ soa mentora reponsável.
 Algumas implementações do projejto não foram vistas em aula e partem da experiência do autor:
 
 - Utilização de DTO's;
-- Uso do Mapter para mapeamnto entre DTO e entidades;
+- Uso do pacote Nuget Mapster para mapeamnto entre DTO e entidades;
 - Formato de trabalho com JWT, transformado como um service;
 - Aprofundamento no uso do Swagger para documentar cada endpoint;
