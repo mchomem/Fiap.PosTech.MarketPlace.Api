@@ -43,3 +43,7 @@ Algumas implementações do projejto não foram vistas em aula e partem da exper
 - Uso do pacote Nuget Mapster para mapeamnto entre DTO e entidades;
 - Formato de trabalho com JWT, transformado como um service;
 - Aprofundamento no uso do Swagger para documentar cada endpoint;
+
+OBS: apesar de já possuir conhecimento em arqutietura limpa, preferi adotar o modelo monolito, não fazendo a segregação dos recursos (Services, Repositories, Entities,m etc) por projeto, deixando tudo em um mesmo projeto na solution, deixando assim uma margem para refatoração futura.
+Outro ponto por esse projeto ser de estudo e ser pequeno, caberia nele perfeitamente o uso
+de minimal api para tornar o código um pouco mais enxuto.
