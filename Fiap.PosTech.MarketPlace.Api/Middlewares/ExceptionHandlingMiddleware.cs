@@ -1,7 +1,7 @@
 namespace Fiap.PosTech.MarketPlace.Api.Middlewares;
 
 /// <summary>
-/// Middleware para tratamento de exceções não tratadas na aplicação.
+/// Middleware para tratamento de exceções da aplicação.
 /// </summary>
 public class ExceptionHandlingMiddleware
 {
